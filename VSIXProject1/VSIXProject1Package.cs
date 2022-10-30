@@ -26,7 +26,6 @@ namespace VSIXProject1
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [Guid(VSIXProject1Package.PackageGuidString)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    [ProvideToolWindow(typeof(ToolWindow1))]
     public sealed class VSIXProject1Package : AsyncPackage
     {
         /// <summary>
@@ -49,7 +48,6 @@ namespace VSIXProject1
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
             await Command1.InitializeAsync(this);
-            await ToolWindow1Command.InitializeAsync(this);
         }
 
         #endregion
