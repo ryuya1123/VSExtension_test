@@ -50,9 +50,10 @@
     <Compile Include="EditorClassifier\EditorClassifier1ClassificationDefinition.cs" />
     <Compile Include="EditorClassifier\EditorClassifier1Format.cs" />
     <Compile Include="EditorClassifier\EditorClassifier1Provider.cs" />
-    <Compile Include="EditorClassifier\MarginGlyph\FileAndContentTypes.cs" />
+    <Compile Include="EditorClassifier\FileAndContentTypes.cs" />
     <Compile Include="EditorClassifier\MarginGlyph\TodoGlyphFactory.cs" />
     <Compile Include="EditorClassifier\MarginGlyph\TodoTagger.cs" />
+    <Compile Include="EditorClassifier\TextView\ViewPropertyModifier.cs" />
     <Compile Include="Margin\EditorMargin1.cs" />
     <Compile Include="Margin\EditorMargin1Factory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
